@@ -25,9 +25,9 @@ export default function LoginScreen({ navigation }) {
     return (
         <View style={styles.container}>
             <Text style={styles.label}>Username</Text>
-            <TextInput style={styles.input} value={username} onChangeText={setUsername} placeholder="Username" />
+            <TextInput style={styles.input} value={username} onChangeText={setUsername} placeholder="Username" autoCapitalize="none"/>
             <Text style={styles.label}>Password</Text>
-            <TextInput style={styles.input} value={password} onChangeText={setPassword} placeholder="Password" secureTextEntry />
+            <TextInput style={styles.input} value={password} onChangeText={setPassword} placeholder="Password" secureTextEntry autoCapitalize="none"/>
             <Button title="Login" onPress={handleLogin} color={COLORS.secondary} />
         </View>
     );
