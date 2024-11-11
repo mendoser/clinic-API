@@ -19,6 +19,7 @@ react-native-debugger
 # Environment variables file
 .env
 
+
 # VS Code settings
 .vscode/
 
