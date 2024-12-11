@@ -1,0 +1,34 @@
+# Node.js dependencies
+///node_modules/
+
+# npm debug files
+//npm-debug.log*
+
+# Environment variables
+//.env
+//.env.*.local
+
+# Logs
+//logs
+//*.log
+
+# Operating System generated files
+//.DS_Store
+//Thumbs.db
+
+# IDE / Editor directories and files
+//.vscode/
+//.idea/
+//*.sublime-workspace
+//*.sublime-project
+
+# Build directories
+//dist/
+//build/
+//public/
+
+# Coverage directory used by testing tools
+//coverage/
+
+# Optional npm cache directory
+//.npm
