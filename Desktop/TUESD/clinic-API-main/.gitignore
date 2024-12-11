@@ -1,0 +1,36 @@
+# React Native
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# React Native build output
+android/build/
+ios/build/
+
+# NPM packages
+node_modules/
+
+# Metro bundler
+*.log
+
+# React Native Debugger
+react-native-debugger
+
+# Environment variables file
+.env
+
+
+# VS Code settings
+.vscode/
+
+# MacOS-specific files
+*.swp
+
+# Expo
+.expo/
+
+# Android Studio specific files
+.idea/
+
+# Xcode specific files
+xcuserdata/
